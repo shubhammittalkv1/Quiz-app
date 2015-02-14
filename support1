@@ -1,0 +1,130 @@
+<!DOCTYPE css>
+
+button,
+input {
+<table>
+        <tr>
+                <td>
+</td>
+ </tr></table>
+color: #696969;
+width: 100px;
+height: 25px;
+margin-left:auto;
+}
+button,
+input
+{
+width: 100px;
+height: 25px;
+margin:auto;
+}
+#container{
+margin:0px;
+text-align: top;
+padding-top:40px;
+font-size:30px;
+padding-left:120px;
+background-color:#DCDCDC;
+height:500px;
+width:100%;
+color:#696969;
+}
+
+#option
+{
+margin:0px;
+background-color:#DCDCDC;
+height:250px;
+width:100%;
+}
+#shubham
+{
+background-color:#696969;
+padding-top:10px;
+margin:auto;
+height:90px;
+width:100%;
+}
+  body {
+	font-family: sans-serif;
+	font-weight: normal;
+	margin: 30px;
+	color: #999;
+	background-color: #696969;
+}
+
+form {
+	margin: 10px 0;
+}
+
+div {
+	clear: both;
+	margin: 0 50px;
+}
+
+label {
+height:60px;
+  width: 500px;
+  border-radius: 3px;
+  border: 2px solid #D1D3D4
+}
+
+/* hide input */
+input.radio:empty {
+	margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.5em;
+	text-indent: 3.25em;
+	margin-top: 1em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width:2.5em;
+	background: #D1D3D4;
+	border-radius: 5px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color:#696969;
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #FF6600;
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: #9CE2AE;
+	background-color: #4DCB6D;
+}
+
+input.radio:checked ~ label {
+	color: #32CD32;
+}
+
+/* radio focus */
+input.radio:focus ~ label:before {
+	box-shadow: 0 0 0 3px #999;
+}

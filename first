@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.img {
+position: absolute;
+    left:450px;
+    top: 270px;
+}
+</style>
+<title>QUIZ S</title>
+</head>   
+<body bgcolor="#ffffff">
+<div class="img">
+<a href="QP1">
+<img src=ClickHere_button.jpg width:"500" height:"500">
+</a>  
+<body>
+</body>
+</html> 
